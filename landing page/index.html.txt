@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Marketing Platform</h1>
+    <p>Your gateway to effective marketing solutions</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </header>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Targeted Advertising</li>
+      <li>Email Campaigns</li>
+      <li>Social Media Management</li>
+      <li>Analytics and Reporting</li>
+    </ul>
+  </section>
+
+  <section id="benefits">
+    <h2>Benefits</h2>
+    <ul>
+      <li>Increase Brand Visibility</li>
+      <li>Generate Leads</li>
+      <li>Improve Conversion Rates</li>
+      <li>Track Campaign Performance</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Client Testimonials</h2>
+    <!-- Add client testimonials here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Marketing Platform</p>
+  </footer>
+</body>
+</html>
